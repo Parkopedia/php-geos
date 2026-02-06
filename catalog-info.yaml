@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parkopedia-backend-geos-client-engineering
+  description: Fork of a library that helps speed up geo spatial related functionality
+spec:
+  type: library
+  lifecycle: production
+  owner: client-engineering
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parkopedia-backend-geos-in-car-payments
+  description: Fork of a library that helps speed up geo spatial related functionality
+spec:
+  type: library
+  lifecycle: production
+  owner: in-car-payments
